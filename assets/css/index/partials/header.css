@@ -40,6 +40,7 @@ header .titulo p {
   width: 100%;
   max-width: 600px;
   margin: 15px 0 20px 0;
+  text-align: justify;
 }
 
 header .titulo button {
@@ -88,7 +89,7 @@ header .imagem {
   align-items: flex-end;
   justify-content: flex-end;
   width: 50%;
-  background-image: url("../../../../files/images/divisor-desktop.png");
+  background-image: url("../../../../files/images/divisor.png");
   background-position: left center;
   background-size: cover;
   padding: 100px 50px 0 0;
@@ -98,8 +99,7 @@ header .imagem {
 }
 
 header .imagem img.daniela {
-  width: 100%;
-  /* max-width: 500px; */
+  width: 480px;
   z-index: 2;
   animation: ImgDani 20s linear infinite;
 }

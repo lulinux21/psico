@@ -6,13 +6,13 @@
 
   --cor-degrade-claro: linear-gradient(90deg, #c8d9e1, #7ca3b8);
   --cor-degrade-claro-webkit: -webkit-linear-gradient(90deg, #c8d9e1, #7ca3b8);
-  --cor-degrade-escuro: linear-gradient(90deg, #23427a, #6e8fb6);
-  --cor-degrade-escuro-webkit: -webkit-linear-gradient(90deg, #23427a, #6e8fb6);
+  --cor-degrade-escuro: linear-gradient(90deg, #085571, #39768d);
+  --cor-degrade-escuro-webkit: -webkit-linear-gradient(90deg, #085571, #39768d);
   --cor-degrade-branco: linear-gradient(90deg, #e3e3ee, #ffffff);
   --cor-degrade-branco-webkit: -webkit-linear-gradient(90deg, #e3e3ee, #ffffff);
 
-  --cor-azul-escuro-1: #23427a;
-  --cor-azul-escuro-2: #6e8fb6;
+  --cor-azul-escuro-1: #085571;
+  --cor-azul-escuro-2: #39768d;
   --cor-azul-claro-1: #c8d9e1;
   --cor-azul-claro-2: #7ca3b8;
 
@@ -100,7 +100,7 @@ body.bloquear {
 
 ::selection {
   color: #ffffff;
-  background-color: #23427a;
+  background-color: #085571;
 }
 
 a {
