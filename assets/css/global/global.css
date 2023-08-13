@@ -4,8 +4,8 @@
   --cor-branco: #ffffff;
   --cor-preto: #000000;
 
-  --cor-degrade-claro: linear-gradient(90deg, #c8d9e1, #7ca3b8);
-  --cor-degrade-claro-webkit: -webkit-linear-gradient(90deg, #c8d9e1, #7ca3b8);
+  --cor-degrade-claro: linear-gradient(90deg, #6a99a9, #9cbbc6);
+  --cor-degrade-claro-webkit: -webkit-linear-gradient(90deg, #6a99a9, #9cbbc6);
   --cor-degrade-escuro: linear-gradient(90deg, #085571, #39768d);
   --cor-degrade-escuro-webkit: -webkit-linear-gradient(90deg, #085571, #39768d);
   --cor-degrade-branco: linear-gradient(90deg, #e3e3ee, #ffffff);
@@ -13,8 +13,8 @@
 
   --cor-azul-escuro-1: #085571;
   --cor-azul-escuro-2: #39768d;
-  --cor-azul-claro-1: #c8d9e1;
-  --cor-azul-claro-2: #7ca3b8;
+  --cor-azul-claro-1: #6a99a9;
+  --cor-azul-claro-2: #9cbbc6;
 
   --cor-cinza-claro: #e3e3ee;
 
@@ -25,7 +25,7 @@
 /* Personalização do Scrollbar */
 
 html {
-  scrollbar-color: #7ca3b8 #ffffff;
+  scrollbar-color: #9cbbc6 #ffffff;
   scrollbar-width: thin;
 }
 
@@ -43,7 +43,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #7ca3b8;
+  background-color: #9cbbc6;
   width: 4px;
   height: 4px;
   border-radius: 10px;
