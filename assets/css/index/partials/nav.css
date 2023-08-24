@@ -32,6 +32,7 @@ nav .opcoes a {
 }
 
 a:hover .submenu {
+  background-color: #ffffff;
   display: block;
 }
 
@@ -175,6 +176,11 @@ nav button span.menor {
     font-size: clamp(0.8rem, 3vw, 1rem);
     color: var(--cor-azul-escuro-1);
     margin: 0 0 10px 0;
+  }
+
+  .opcoes a:nth-child(3)::after {
+    transform: rotate(179deg);
+    content: "▼";
   }
 
   nav .opcoes a.whatsapp {

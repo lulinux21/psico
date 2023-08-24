@@ -1,0 +1,28 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-image: url("./../../../../files/images/sala.jpg");
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card-service {
+  max-width: 320px;
+  background-color: #fff;
+}
+
+.card-service-header {
+  background-color: var(--cor-azul-escuro-1);
+}
+
+.card-service-header {
+  color: #fff;
+}
+
+.btn-service {
+  background-color: var(--cor-azul-escuro-2);
+  border: transparent;
+}
