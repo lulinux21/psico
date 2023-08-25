@@ -1,4 +1,18 @@
 .abordagem {
-  background: var(--cor-degrade-branco);
-  background: var(--cor-degrade-branco-webkit);
+  background: linear-gradient(90deg, #ffffff, #ffffff);
+  background: -webkit-linear-gradient(90deg, #ffffff, #ffffff);
+  align-items: center;
+  min-height: 380px;
+}
+
+.title-abordagem {
+  color: var(--cor-azul-escuro-1);
+}
+
+.abordagem p {
+  font-family: var(--regular);
+  font-size: 16px;
+  color: var(--cor-azul-escuro-1);
+  line-height: 1.5;
+  text-align: justify;
 }
