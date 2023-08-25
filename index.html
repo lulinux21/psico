@@ -50,96 +50,115 @@
 </head>
 
 <body>
-  <!-- Cabeçalho da página -->
-  <nav>
-    <img src="./files/images/logo.svg" class="logo" />
-    <div class="opcoes">
-      <a href="#">Início</a>
-      <a href="#">Sobre Mim</a>
-      <a href="#">Serviços
-        <ul class="submenu">
-          <li>Psicoterapia Individual</li>
-          <li>Método conceituação cognitiva na prática</li>
-          <li>E-book | Passo a passo para lidar com a ansiedade</li>
-        </ul>
-      </a>
+  <div class="container-fluid">
+    <!-- Cabeçalho da página -->
+    <nav class="row">
+      <img src="./files/images/logo.svg" class="logo" />
+      <div class="opcoes">
+        <a href="#">Início</a>
+        <a href="#">Sobre Mim</a>
+        <a href="#">Serviços
+          <ul class="submenu">
+            <li>Psicoterapia Individual</li>
+            <li>Método conceituação cognitiva na prática</li>
+            <li>E-book | Passo a passo para lidar com a ansiedade</li>
+          </ul>
+        </a>
 
-      <a class="whatsapp" href="#">
-        <img src="./files/images/icone-whatsapp.png" alt="" />
-        Agendar consulta
-      </a>
-    </div>
-    <button class="menu" type="button">
-      <span class="maior"></span>
-      <span class="menor"></span>
-    </button>
-  </nav>
-
-  <!-- Topo da página -->
-  <header>
-    <div class="titulo">
-      <h1>Conheça um pouco sobre mim e a minha formação!</h1>
-      <p>
-        Olá! Sou Daniela Andreola e sou Psicóloga Clínica CRP 07/32546. Possuo
-        especialização em Terapia Cognitivo Comportamental, formação em
-        Psicopatologia, Curso de Performace em Terapia Cognitivo
-        Comportamental. Na área clínica utilizo a abordagem TCC – Terapia
-        Cognitivo Comportamental para conduzir os atendimentos que são
-        direcionados a adolescentes e adultos.
-        <br />
-        <br />
-        Eu decidi ser psicóloga desde muito cedo. Minha motivação para
-        trabalhar com a psicologia clínica sempre foi a mesma – poder promover
-        liberdade de escolha e alivio do sofrimento.
-      </p>
-      <button>
-        Meus serviços
-        <span><img src="./files/images/icone-seta.png" /></span>
+        <a class="whatsapp" href="#">
+          <img src="./files/images/icone-whatsapp.png" alt="" />
+          Agendar consulta
+        </a>
+      </div>
+      <button class="menu" type="button">
+        <span class="maior"></span>
+        <span class="menor"></span>
       </button>
-    </div>
-    <div class="imagem">
-      <img src="./files/images/banner.png" class="daniela" />
-    </div>
-  </header>
-  <main class="main container-fluid">
+    </nav>
 
-    <section class="row services p-2">
-      <div>
-        <h2 class="text-center my-4">Meus Serviços</h2>
+    <!-- Topo da página -->
+    <header class="row">
+      <div class="titulo">
+        <h1>Conheça um pouco sobre mim e a minha formação!</h1>
+        <p>
+          Olá! Sou Daniela Andreola e sou Psicóloga Clínica CRP 07/32546. Possuo
+          especialização em Terapia Cognitivo Comportamental, formação em
+          Psicopatologia, Curso de Performace em Terapia Cognitivo
+          Comportamental. Na área clínica utilizo a abordagem TCC – Terapia
+          Cognitivo Comportamental para conduzir os atendimentos que são
+          direcionados a adolescentes e adultos.
+          <br />
+          <br />
+          Eu decidi ser psicóloga desde muito cedo. Minha motivação para
+          trabalhar com a psicologia clínica sempre foi a mesma – poder promover
+          liberdade de escolha e alivio do sofrimento.
+        </p>
+        <button>
+          Meus serviços
+          <span><img src="./files/images/icone-seta.png" /></span>
+        </button>
       </div>
-
-      <div class="row">
-        <div class="col-sm-6 col-lg-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In beatae molestiae quas natus quam provident voluptas, doloribus sapiente ducimus consequatur molestias sequi. Eligendi autem nemo culpa ea ducimus consectetur nisi!</p>
-              <a href="#" class="btn btn-primary btn-service">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In beatae molestiae quas natus quam provident voluptas, doloribus sapiente ducimus consequatur molestias sequi. Eligendi autem nemo culpa ea ducimus consectetur nisi!</p>
-              <a href="#" class="btn btn-primary btn-service">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-lg-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In beatae molestiae quas natus quam provident voluptas, doloribus sapiente ducimus consequatur molestias sequi. Eligendi autem nemo culpa ea ducimus consectetur nisi!</p>
-              <a href="#" class="btn btn-primary btn-service">Go somewhere</a>
-            </div>
-          </div>
-        </div>
+      <div class="imagem">
+        <img src="./files/images/banner.png" class="daniela" />
       </div>
-    </section>
-  </main>
+    </header>
+
+    <div class="row services">
+      <section class="container p-2">
+        <div>
+          <h2 class="text-center title-services my-4">Meus Serviços</h2>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-4 mb-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">Psicoterapia Individual</h5>
+                <br>
+                <p class="card-text"> O processo de psicoterapia individual é direcionado a adolescentes e adultos. Cada sessão tem duração de 50 a 60 minutos, e ocorre na frequência semanal. Podem ser feita na modalidade online ou presencial, conforme a preferência do cliente. </p>
+                <a href="#" class="btn btn-primary btn-service">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 mb-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">Método conceituação cognitiva na prática</h5>
+                <p class="card-text">Você atua com Terapia Cognitivo Comportamental e não sabe, ou tem dificuldades em construir a conceituação cognitiva do seu cliente? Não sabe como incluir no plano de tratamento? Se sente insegura na prática clínica por conta disso? <br>
+                  O Método Conceitualização na prática é para você! Como funciona?
+                </p>
+                <a href="#" class="btn btn-primary btn-service">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 mb-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">E-book | Passo a passo para lidar com a ansiedade</h5>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In beatae molestiae quas natus quam provident voluptas, doloribus sapiente ducimus consequatur molestias sequi. Eligendi autem nemo culpa ea ducimus consectetur nisi!</p>
+                <a href="#" class="btn btn-primary btn-service">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="row abordagem">
+      <section class="container">
+        <h2 class="title-abordagem">Minha Abordagem</h2>
+        <p>- Por que eu escolhi essa abordagem para conduzir o meu trabalho?
+          Minha história com a Terapia Cognitivo Comportamental é antiga, eu amo e vivo aquilo que acredito. Para mim não é somente a abordagem que escolhi, é muito mais que isso.
+          <br>
+          A TCC acredita que o sofrimento humano não vem da situação em sí, e sim da interpretação dos fatos.
+          <br>
+          Eu acredito que a principal transformação que a terapia traz é a possibilidade de escolha.
+          <br>
+          Quando aprendemos a lidar de forma diferente com nossos pensamentos e emoções mudamos também a forma como nos sentimos, e neste espaço de tempo existe um poder de decidir baseado naquilo que importa para você.
+        </p>
+      </section>
+    </div>
+  </div>
   <!-- Importação do JAVASCRIPT -->
   <script src="./assets/js/global/global.js"></script>
   <script src="./assets/js/index/nav.js"></script>

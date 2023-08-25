@@ -1,9 +1,6 @@
 /* index <header> */
 
 header {
-  display: flex;
-  justify-content: center;
-  width: 100%;
   background: var(--cor-degrade-branco);
   background: var(--cor-degrade-branco-webkit);
 }

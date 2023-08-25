@@ -8,8 +8,14 @@
   --cor-degrade-claro-webkit: -webkit-linear-gradient(90deg, #6a99a9, #9cbbc6);
   --cor-degrade-escuro: linear-gradient(90deg, #085571, #39768d);
   --cor-degrade-escuro-webkit: -webkit-linear-gradient(90deg, #085571, #39768d);
-  --cor-degrade-branco: linear-gradient(90deg, #e3e3ee, #ffffff);
-  --cor-degrade-branco-webkit: -webkit-linear-gradient(90deg, #e3e3ee, #ffffff);
+  --cor-degrade-branco: linear-gradient(90deg, #ffffff, #e3e3ee);
+  --cor-degrade-branco-webkit: -webkit-linear-gradient(90deg, #ffffff, #e3e3ee);
+  --cor-degrade-servicos: linear-gradient(90deg, #ffffff, #085571);
+  --cor-degrade-servicos-webkit: -webkit-linear-gradient(
+    90deg,
+    #ffffff,
+    #085571
+  );
 
   --cor-azul-escuro-1: #085571;
   --cor-azul-escuro-2: #39768d;
