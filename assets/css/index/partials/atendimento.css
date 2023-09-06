@@ -1,6 +1,6 @@
 .atendimento {
   align-items: center;
-  min-height: 550px;
+  min-height: 480px;
   background: var(--cor-degrade-servicos);
   background: var(--cor-degrade-servicos-webkit);
 }
