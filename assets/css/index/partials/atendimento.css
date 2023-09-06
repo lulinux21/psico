@@ -1,8 +1,8 @@
 .atendimento {
   align-items: center;
-  min-height: 2000px;
-  background: linear-gradient(90deg, #085571, #6a99a9);
-  background: -webkit-linear-gradient(90deg, #085571, #6a99a9);
+  min-height: 550px;
+  background: var(--cor-degrade-servicos);
+  background: var(--cor-degrade-servicos-webkit);
 }
 
 .box-card {
