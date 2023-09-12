@@ -17,3 +17,10 @@
   line-height: 1.5;
   text-align: justify;
 }
+
+.rodape-info {
+  background: linear-gradient(90deg, #085571, #6a99a9);
+  background: -webkit-linear-gradient(90deg, #085571, #6a99a9);
+  align-items: center;
+  min-height: 250px;
+}
